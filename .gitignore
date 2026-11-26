@@ -1,0 +1,14 @@
+# build output
+.next/
+out/
+node_modules/
+
+# environment
+.env
+.env.*
+!.env.example
+
+# local
+.DS_Store
+*.log
+tsconfig.tsbuildinfo

@@ -1,0 +1,22 @@
+{
+  "name": "Wilfred — field notes",
+  "short_name": "Wilfred",
+  "description": "笔记：系统、数据与安静的计算。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf9f6",
+  "theme_color": "#faf9f6",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

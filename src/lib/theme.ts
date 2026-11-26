@@ -1,0 +1,2 @@
+/** Blocking theme bootstrap. Runs before first paint, so no flash. */
+export const themeScript = `(function(){try{var t=localStorage.getItem('theme');if(!t||t==='auto'){t=localStorage.getItem('pref-theme');}if(!t||t==='auto'){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}var d=t==='dark';document.documentElement.classList.toggle('dark',d);document.documentElement.style.colorScheme=d?'dark':'light';}catch(e){}})();`;

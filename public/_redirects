@@ -1,0 +1,7 @@
+# Old Hugo surface -> new routes
+/posts            /writing/       301
+/posts/           /writing/       301
+/search           /search/        301
+/archives         /archives/      301
+/tags             /tags/          301
+/about            /about/         301

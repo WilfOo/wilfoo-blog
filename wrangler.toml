@@ -1,0 +1,5 @@
+# Cloudflare Pages project settings (for `wrangler pages deploy out`).
+# The dashboard can also be used; build command: npm run build, output: out.
+name = "wilfoo-blog"
+pages_build_output_dir = "out"
+compatibility_date = "2026-11-01"
